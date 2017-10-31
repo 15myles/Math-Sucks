@@ -1,4 +1,4 @@
-package com.myleswbey.mathsucks;
+package com.example.meganlondon.mathsucks;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.myleswbey.percentcalculator", appContext.getPackageName());
+        assertEquals("com.example.meganlondon.mathsucks", appContext.getPackageName());
     }
 }

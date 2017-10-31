@@ -1,4 +1,4 @@
-package com.myleswbey.mathsucks;
+package com.example.meganlondon.mathsucks;
 
 import org.junit.Test;
 

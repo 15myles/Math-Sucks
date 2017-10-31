@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.myleswbey.mathsucks.com.myleswbey.mathsucks.MainActivity">
+    android:fitsSystemWindows="true"
+    tools:context="com.example.meganlondon.mathsucks.MainActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -14,12 +15,13 @@
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@android:color/holo_red_light"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@android:color/holo_red_dark"
             app:popupTheme="@style/AppTheme.PopupOverlay" />
 
     </android.support.design.widget.AppBarLayout>
 
     <include layout="@layout/content_main" />
+
 
 </android.support.design.widget.CoordinatorLayout>
